@@ -14,7 +14,7 @@ Un gestionnaire d'instances JavaScript élégant avec une interface riche en emo
 ## 📦 Installation
 
 ```bash
-npm install multi-instance-manager
+npm install multi-instance
 ```
 
 ## 🛠️ Utilisation
@@ -22,7 +22,7 @@ npm install multi-instance-manager
 ### Exemple basique
 
 ```javascript
-const MultiInstanceManager = require('multi-instance-manager');
+const MultiInstanceManager = require('multi-instance');
 
 // Créer une nouvelle instance du gestionnaire
 const manager = new MultiInstanceManager();
@@ -142,7 +142,7 @@ Vous pouvez créer un script CLI pour gérer vos instances:
 
 ```javascript
 #!/usr/bin/env node
-const MultiInstanceManager = require('multi-instance-manager');
+const MultiInstanceManager = require('multi-instance');
 const manager = new MultiInstanceManager();
 
 const command = process.argv[2];
